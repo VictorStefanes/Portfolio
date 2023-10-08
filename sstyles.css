@@ -1,0 +1,153 @@
+header{
+    background-color: #4D6DF3;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+header a{
+    margin-left: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin-right: 2rem;}
+
+li a{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: #4D6DF3;
+    height: 100%;
+    width: 100%;
+    color: black;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 2rem;
+    color: black;
+    margin-top: 50px;
+    
+}
+
+.texto{
+    font-family: 'Pixelify Sans', cursive;
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 755px;
+    margin-bottom: 50px;
+}
+
+.sobre_skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Pixelify Sans', cursive;
+    margin: 50px;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 100px;
+}
+
+.sobre_skills h3{
+    font-size: 2.2rem;
+}
+
+.texto_sobre{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.texto_sobre p{
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.habilidades_skills{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 50px;
+}
+
+.skills{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+}
+
+.item{
+    display: flex;
+    align-items: flex-start;
+    width: calc(50% - 10px);
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.item img{
+    display: flex;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #4D6DF3;
+    height: 100px;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 1.2rem;
+    color: black;
+}
+
+span.emphasis{
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s;
+}
+
+a:hover {
+    color: #f0ec16; /* Alterar a cor ao passar o mouse (você pode escolher uma cor diferente) */
+} 
